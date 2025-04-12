@@ -1,81 +1,24 @@
-# Timeline Visualization
+# Project Title
 
-Uma implementação de componente de timeline inspirada no Dropbox Paper, que organiza itens em faixas horizontais de forma eficiente.
+## What you like about your implementation?
+I like this component-based approach. I find it interesting when we build this kind of tool without relying on specific libraries.
 
-## Características Implementadas
+## What you would change if you were going to do it again?
+I might break it down into smaller files for better maintainability.
 
-- Visualização horizontal da timeline com eixo de tempo
-- Organização automática de itens em faixas para evitar sobreposição
-- Layout responsivo e eficiente em espaço
-- Rolagem horizontal suave
-- Visualização clara de datas e nomes dos itens
-- Interface moderna e intuitiva
+## How you made your design decisions. For example, if you looked at other timelines for inspiration, please note that.
+I was actually inspired by Google Calendar, where everything is very elegant.
 
-## O que Gostei da Implementação
+## How you would test this if you had more time.
+I would test more scenarios, explore possibilities I hadn't thought of, look for other examples online, and use them for comparison.
 
-1. **Organização de Faixas**: A função `assignLanes` permite uma organização eficiente dos itens, minimizando o número de faixas necessárias.
+---
 
-2. **Eixo de Tempo**: A implementação do eixo de tempo com marcas mensais torna a visualização mais intuitiva e profissional.
+## Some features that have been implemented:
 
-3. **Responsividade**: O componente se adapta bem a diferentes tamanhos de tela e permite rolagem horizontal para visualizar períodos mais longos.
+- **Each card has a color**.
+- **Drag and drop**.
+- **Right-click to create a new card, left-click to delete a card**.
+- **Zoom**.
+- **Text editing by double-clicking the title**.
 
-4. **Design Moderno**: A interface segue princípios modernos de design com sombras suaves, transições e feedback visual nos hovers.
-
-## O que Mudaria se Fosse Fazer Novamente
-
-1. **Zoom e Pan**: Implementaria controles de zoom e pan para melhor navegação em períodos longos.
-
-2. **Drag and Drop**: Adicionaria a capacidade de arrastar itens para ajustar suas datas.
-
-3. **Edição Inline**: Permitiria editar nomes e datas diretamente na timeline.
-
-4. **Cores e Categorias**: Implementaria um sistema de cores para diferentes tipos de eventos.
-
-5. **Performance**: Otimizaria o cálculo de posições para melhor performance com grandes conjuntos de dados.
-
-## Decisões de Design
-
-1. **Inspiração**: O design foi inspirado no Dropbox Paper, que oferece uma interface limpa e intuitiva para visualização de timelines.
-
-2. **Eixo de Tempo**: Optei por mostrar marcas mensais para manter a interface limpa, mas permitindo uma boa referência temporal.
-
-3. **Layout de Itens**: Os itens são mostrados com nome e datas em um formato compacto, priorizando a legibilidade.
-
-4. **Interatividade**: Adicionei efeitos de hover e feedback visual para melhorar a experiência do usuário.
-
-## Testes
-
-Se tivesse mais tempo, implementaria os seguintes testes:
-
-1. **Testes de Layout**:
-   - Verificar se os itens são posicionados corretamente
-   - Testar diferentes tamanhos de tela
-   - Validar a organização das faixas
-
-2. **Testes de Interação**:
-   - Testar a rolagem horizontal
-   - Verificar o comportamento dos hovers
-   - Validar a responsividade
-
-3. **Testes de Performance**:
-   - Medir o tempo de renderização com grandes conjuntos de dados
-   - Otimizar cálculos de posicionamento
-   - Implementar virtualização para melhor performance
-
-4. **Testes de Acessibilidade**:
-   - Verificar contraste de cores
-   - Implementar navegação por teclado
-   - Adicionar suporte a leitores de tela
-
-## Como Executar
-
-1. Clone o repositório
-2. Execute `npm install` para instalar as dependências
-3. Execute `npm start` para iniciar o servidor de desenvolvimento
-4. Acesse `http://localhost:1234` no navegador
-
-## Tecnologias Utilizadas
-
-- React
-- CSS moderno
-- JavaScript ES6+ 
